@@ -4,8 +4,11 @@
 # Instructions
  you will need to do the following:
  
-- modify the .sh file for your source and destination folders
 - open your terminal
+- pico rsync.sh
+- modify rsync.sh for the source & destination paths
+- Ctrl-X
+- type y and then enter
 - chmod +x rsync.sh
 - ./rsync.sh
 - you will need to run it whenever you want to sync it, it is not continuous
@@ -25,9 +28,10 @@
  
 # Python script
  you can also make a Python script
+ the process is faster
  type:
 	import os
-	os.system(rsync -aE SourceFolderPath DestinationFolderPath)
+	os.system('rsync -aE SourceFolderPath DestinationFolderPath')
  then you just need in the terminal:
 	python ScriptFilename
 then it should work :)
