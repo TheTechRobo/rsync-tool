@@ -58,4 +58,4 @@ Because, unlike with another tool, you can easily check what's going on in the c
 And plus, this uses an **official** macOS tool that's **included**. Apple wouldn't have added it if it was trouble ;)
 
 # I hope you enjoy my script!
-Courtesy to (ChrisWrites)[https://www.chriswrites.com/how-to-sync-files-and-folders-on-the-mac/] for the instructions :)
+Courtesy to [ChrisWrites](https://www.chriswrites.com/how-to-sync-files-and-folders-on-the-mac/) for the instructions :)
