@@ -20,4 +20,4 @@
  And change the stuff
  after that save it
  and you can run the app whenever to sync the two folders. 
- you can add your own Automator blocks to e.g. add a notification 'Successful!'
+ you can add your own Automator blocks to e.g. add a notification that says 'Successful!'
