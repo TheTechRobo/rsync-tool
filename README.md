@@ -37,7 +37,7 @@
 then it should work :)
 
 # Running it continuously
-I am not great at bash programming so I cannot do this there...yet. 
+I am not great at shell scripting so I cannot do this there...yet. 
 
 Modify your Python code to be:
 
@@ -53,8 +53,7 @@ Choose how much you want it to loop — you can't choose forever :( — so just 
 so that it will loop the 120 minutes and then loop the 120 minutes again for 200 minutes and then repeat the 200 minutes for 220 minutes and so on. 
 
 # Why shouldn't I use another, closed-source, more sophisticated third-party tool?
-Because, unlike with a third-party tool, with this you can actually — and easily — check what's going on in the code.
-So you're sure that it's not a virus. Plus, sophisticated isn't always better, and you're also supporting open-source ;) 
+Because, unlike with another tool, you can easily check what's going on in the code, so you're sure that it's not a virus. Also, sophisticated isn't always better, and you're also supporting open-source ;) 
 ######
 And plus, this uses an **official** macOS tool that's **included**. Apple wouldn't have added it if it was trouble ;)
 
