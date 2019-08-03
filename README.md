@@ -54,6 +54,8 @@ so that it will loop the 120 minutes and then loop the 120 minutes again for 200
 
 # Why shouldn't I use another, closed-source, third-party tool?
 Because, unlike with a third-party tool, with this you can actually — and easily — check what's going on in the code.
-So you're sure that it's not a virus. Plus, you're supporting open-source :)
+So you're sure that it's not a virus. Also, you're supporting open-source :) 
+#
+And plus, this uses an **official** macOS tool that's **included**. Apple wouldn't have added it if it was trouble ;)
 
 # I hope you enjoyed! 
