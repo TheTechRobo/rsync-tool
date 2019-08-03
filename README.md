@@ -15,7 +15,7 @@
 
 
 # Making it Easier
- I am about to upload a file called 'Sync Two Folders.app'
+ I have just added a file called 'Sync Two Folders.app'
  it's an Automator script
  to modify the paths just open Automator. 
  File>Open
