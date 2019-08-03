@@ -21,3 +21,13 @@
  after that save it
  and you can run the app whenever to sync the two folders. 
  you can add your own Automator blocks to e.g. add a notification that says 'Successful!'
+ 
+ 
+# Python script
+ you can also make a Python script
+ type:
+	import os
+	os.system(rsync -aE SourceFolderPath DestinationFolderPath)
+ then you just need in the terminal:
+	python ScriptFilename
+then it should work :)
