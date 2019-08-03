@@ -1,0 +1,1 @@
+rsync -aE SourcePath DestinationPath
