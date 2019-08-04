@@ -37,7 +37,7 @@
 then it should work :)
 
 # Running it continuously
-I am not great at shell scripting so I cannot do this there...yet. 
+In the rsync.sh file by default it loops
 
 Modify your Python code to be:
 
