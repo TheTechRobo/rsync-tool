@@ -28,17 +28,23 @@
  
 # Python script
  you can also make a Python script
+ 
  the process is faster
+ 
  type:
+ 
 	import os
 	os.system('rsync -aE SourceFolderPath DestinationFolderPath')
  then you just need in the terminal:
+ 
 	python ScriptFilename
+
 then it should work :)
 
 # Running it continuously
 In the rsync.sh file by default it loops
 
+###### Looping the Python script
 Modify your Python code to be:
 
 	import os
