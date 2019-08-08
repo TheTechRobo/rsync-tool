@@ -1,5 +1,5 @@
 # rsync-tool
- sync two folders together using a single command
+ sync two folders together using a single command (on Mac)
  
 # Instructions
  you will need to do the following:
@@ -15,23 +15,53 @@
 
 
 # Making it Easier
- I have just added a file called 'Sync Two Folders.app'
- it's an Automator script
- to modify the paths just open Automator. 
- File>Open
- Navigate to the script
- And change the stuff
- after that save it
+ I have just added a file called 'Sync Two Folders.app'. 
+ 
+ it's an Automator script. 
+ 
+ to modify the paths just open Automator. File>Open
+ Navigate to the script and change the paths. 
+ after that save it,
  and you can run the app whenever to sync the two folders. 
  you can add your own Automator blocks to e.g. add a notification that says 'Successful!'
  
  
 # Python script
  you can also make a Python script
+ 
  the process is faster
+ 
  type:
+ 
 	import os
 	os.system('rsync -aE SourceFolderPath DestinationFolderPath')
  then you just need in the terminal:
+ 
 	python ScriptFilename
+
 then it should work :)
+
+# Running it continuously
+In the rsync.sh file by default it loops
+
+###### Looping the Python script
+Modify your Python code to be:
+
+	import os
+	while True:
+		os.system('rsync -aE SrcPath DesPath')
+Then it should loop, so long as you don't close the terminal
+
+###### Looping Automator
+Open the script as you would (above) and add the following block AFTER the shell script command:
+Loop
+Choose how much you want it to loop — you can't choose forever :( — so just type e.g. Loop 120 minutes and add another loop for 200 minutes 
+so that it will loop the 120 minutes and then loop the 120 minutes again for 200 minutes and then repeat the 200 minutes for 220 minutes and so on. 
+
+# Why shouldn't I use another, closed-source, more sophisticated third-party tool?
+Because, unlike with another tool, you can easily check what's going on in the code, so you're sure that it's not a virus. Also, sophisticated isn't always better, and you're also supporting open-source ;) 
+######
+And plus, this uses an **official** macOS tool that's **included**. Apple wouldn't have added it if it was trouble ;)
+
+# I hope you enjoy my script!
+Courtesy to [ChrisWrites](https://www.chriswrites.com/how-to-sync-files-and-folders-on-the-mac/) for the instructions :)
