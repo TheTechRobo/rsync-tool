@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>rsync -aE SourceFolderPath DestinationFolderPath</string>
+					<string>rsync -aE -delete SourceFolderPath DestinationFolderPath</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>

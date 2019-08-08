@@ -7,11 +7,10 @@
 - open your terminal
 - pico rsync.sh
 - modify rsync.sh for the source & destination paths
-- Ctrl-X
-- type y and then enter
+- Ctrl-X; then type y and then enter
 - chmod +x rsync.sh
 - ./rsync.sh
-- you will need to run it whenever you want to sync it, it is not continuous
+- it is continuous; to stop, close the terminal
 
 
 # Making it Easier
@@ -34,7 +33,7 @@
  type:
  
 	import os
-	os.system('rsync -aE SourceFolderPath DestinationFolderPath')
+	os.system('rsync -aE -delete SourceFolderPath DestinationFolderPath')
  then you just need in the terminal:
  
 	python ScriptFilename
@@ -49,7 +48,7 @@ Modify your Python code to be:
 
 	import os
 	while True:
-		os.system('rsync -aE SrcPath DesPath')
+		os.system('rsync -aE -delete SrcPath DesPath')
 Then it should loop, so long as you don't close the terminal
 
 ###### Looping Automator
