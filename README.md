@@ -33,7 +33,7 @@
  type:
  
 	import os
-	os.system('rsync -aE -delete SourceFolderPath DestinationFolderPath')
+	os.system('rsync -aE --delete SourceFolderPath DestinationFolderPath')
  then you just need in the terminal:
  
 	python ScriptFilename
@@ -48,7 +48,7 @@ Modify your Python code to be:
 
 	import os
 	while True:
-		os.system('rsync -aE -delete SrcPath DesPath')
+		os.system('rsync -aE --delete SrcPath DesPath')
 Then it should loop, so long as you don't close the terminal
 
 ###### Looping Automator
