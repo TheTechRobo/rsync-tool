@@ -27,8 +27,11 @@
  
 # Python script
  I made a python script
+ 
  it should work
+ 
  it's filename:
+ 
 	rsync.py
 
 # Running it continuously
