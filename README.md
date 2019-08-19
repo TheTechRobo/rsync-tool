@@ -26,30 +26,15 @@
  
  
 # Python script
- you can also make a Python script
- 
- the process is faster
- 
- type:
- 
-	import os
-	os.system('rsync -aE --delete SourceFolderPath DestinationFolderPath')
- then you just need in the terminal:
- 
-	python ScriptFilename
-
-then it should work :)
+ I made a python script
+ it should work
+ it's filename:
+	rsync.py
 
 # Running it continuously
 In the rsync.sh file by default it loops
+so does the python script
 
-###### Looping the Python script
-Modify your Python code to be:
-
-	import os
-	while True:
-		os.system('rsync -aE --delete SrcPath DesPath')
-Then it should loop, so long as you don't close the terminal
 
 ###### Looping Automator
 Open the script as you would (above) and add the following block AFTER the shell script command:
