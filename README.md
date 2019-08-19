@@ -30,7 +30,7 @@
  
  it should work
  
- it's filename:
+ its filename:
  
 	rsync.py
 
