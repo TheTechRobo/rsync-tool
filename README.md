@@ -1,6 +1,9 @@
 # rsync-tool
  sync two folders together using a single command (on Mac)
  
+ # Requirements
+ * Mac OS X Lion and  OS X Yosemite are the only OSes this is tested on
+ * A terminal
 # Instructions
  you will need to do the following:
  
