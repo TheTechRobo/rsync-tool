@@ -3,7 +3,7 @@
  
  # Requirements
  * Mac OS X Lion and  OS X Yosemite are the only OSes this is tested on
- * For linux, the only thing this is tested on is Raspbian Stretch
+ * For linux, the only thing this is tested on is Raspbian Stretch 2018-11
  * A terminal
 # Instructions
  you will need to do the following:
