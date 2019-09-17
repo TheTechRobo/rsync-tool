@@ -32,15 +32,15 @@
 # Python script
  I made a python script
  
- it should work
+ It should work
  
- its filename:
+ Its filename is:
  
 	rsync.py
 
 # Running it continuously
 In the rsync.sh file by default it loops
-so does the python script
+So does the python script
 
 
 ###### Looping Automator
@@ -63,7 +63,7 @@ Shell: delete
 and the indentation
 # Why shouldn't I use another, closed-source, more sophisticated third-party tool?
 Because, unlike with another tool, you can easily check what's going on in the code, so you're sure that it's not a virus. Also, sophisticated isn't always better, and you're also supporting open-source ;) 
-######
+<p></p>
 And plus, this uses an **official** macOS tool that's **included**. The developers wouldn't have added it if it was trouble ;)
 
 # I hope you enjoy my script!
