@@ -64,7 +64,7 @@ and the indentation
 # Why shouldn't I use another, closed-source, more sophisticated third-party tool?
 Because, unlike with another tool, you can easily check what's going on in the code, so you're sure that it's not a virus. Also, sophisticated isn't always better, and you're also supporting open-source ;) 
 <p></p>
-And plus, this uses an **official** macOS tool that's **included**. The developers wouldn't have added it if it was trouble ;)
+And plus, this uses an **official** Linux tool that's **included**. The developers wouldn't have added it if it was trouble ;)
 
 # I hope you enjoy my script!
 Courtesy to [ChrisWrites](https://www.chriswrites.com/how-to-sync-files-and-folders-on-the-mac/) for the instructions :)
