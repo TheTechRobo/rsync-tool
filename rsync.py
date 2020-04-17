@@ -1,5 +1,23 @@
-import os
+import time
+from sys import exit
+from subprocess import Popen as r
 print("Loading...")
-while True: #comment for run-once
-	os.system('rsync -aE --delete Src Des') #delete indent for run-once
-	print("To stop, close the terminal")
+time.sleep(1.5)
+source = input("What is the SOURCE DIRECTORY? ")
+destination = input("What is the DESTINATION DIRECTORY?")
+onceOrTwice = input("Would you like rsync-tool to run rsync ONCE or INDEFINITELY? ")
+if onceOrTwice.lower() == "once":
+	try:
+	    r(["rsync -aE --delete ", source, " ", destination])
+    except:
+        exit("An error occured.)
+    print("All done.")
+elif onceOrTwice.lower() == "indefinitely":
+    while True:
+        try:
+	        r(["rsync -aE --delete ", source, " ", destination])
+        except KeyboardInterrupt:
+             exit("You exited.")
+        except:
+            exit("An error occured.")
+        print("Press ^C to cancel.")
