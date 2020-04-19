@@ -8,13 +8,8 @@
 # Instructions
  you will need to do the following:
  
-- open your terminal
-- pico rsync.sh
-- modify rsync.sh for the source & destination paths
-- Ctrl-X; then type y and then enter
-- chmod +x rsync.sh
-- ./rsync.sh
-- it is continuous; to stop, close the terminal
+- A better version of `rsync-tool` is now in [goodiecommand](https://github.com/thetechrobo/goodiecommand)!
+- It is much easier and does not require editing a file.
 
 
 # Making it Easier
@@ -38,9 +33,9 @@
  
 	rsync.py
 
-# Running it continuously
-In the rsync.sh file by default it loops
-So does the python script
+# Running it just once
+The Python script asks you to run it once or indefinitely.  
+To stop it (if you chose indefinitely), press ^C or close the terminal.
 
 
 ###### Looping Automator
@@ -49,18 +44,6 @@ Loop
 Choose how much you want it to loop — you can't choose forever :( — so just type e.g. Loop 120 minutes and add another loop for 200 minutes 
 so that it will loop the 120 minutes and then loop the 120 minutes again for 200 minutes and then repeat the 200 minutes for 220 minutes and so on. 
 
-# Running it single-use
-Python: delete the
-
-	while True:
-loop and the indentation
-
-Shell: delete
-
-	for (( ; ; ))
-	do
-	done
-and the indentation
 # Why shouldn't I use another, closed-source, more sophisticated third-party tool?
 Because, unlike with another tool, you can easily check what's going on in the code, so you're sure that it's not a virus. Also, sophisticated isn't always better, and you're also supporting open-source ;) 
 <p></p>
