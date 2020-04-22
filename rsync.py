@@ -8,14 +8,14 @@ destination = input("What is the DESTINATION DIRECTORY?")
 onceOrTwice = input("Would you like rsync-tool to run rsync ONCE or INDEFINITELY? ")
 if onceOrTwice.lower() == "once":
 	try:
-	    r(["rsync -aE --delete ", source, " ", destination])
+	    r(["rsync -aE --delete ", source, " ", destination], shell=True)
     except:
         exit("An error occured.)
     print("All done.")
 elif onceOrTwice.lower() == "indefinitely":
     while True:
         try:
-	        r(["rsync -aE --delete ", source, " ", destination])
+	        r(["rsync -aE --delete ", source, " ", destination], shell=True)
         except KeyboardInterrupt:
              exit("You exited.")
         except:
