@@ -6,7 +6,7 @@
  * For linux, the only thing this is tested on is Raspbian Stretch 2018-11
  * A terminal
 # Instructions
-The Shell Script mode has been removed, please mosey on down below.
+The Shell Script mode has been deprecated, there is no official support or instructions anymore, please mosey on down below.
 
 # Making it Easier - Automator Script (Mac only)
  I have just added a file called 'Sync Two Folders.app'. 
