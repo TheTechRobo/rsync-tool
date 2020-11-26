@@ -6,13 +6,9 @@
  * For linux, the only thing this is tested on is Raspbian Stretch 2018-11
  * A terminal
 # Instructions
- you will need to do the following:
- 
-- A better version of `rsync-tool` is now in [goodiecommand](https://github.com/thetechrobo/goodiecommand)!
-- It is much easier and does not require editing a file.
+The Shell Script mode has been removed, please mosey on down below.
 
-
-# Making it Easier
+# Making it Easier - Automator Script (Mac only)
  I have just added a file called 'Sync Two Folders.app'. 
  
  it's an Automator script. 
@@ -25,9 +21,9 @@
  
  
 # Python script
- I made a python script
+ I made a Python script.
  
- It should work
+ It should work.
  
  Its filename is:
  
@@ -46,7 +42,7 @@ so that it will loop the 120 minutes and then loop the 120 minutes again for 200
 
 # Why shouldn't I use another, closed-source, more sophisticated third-party tool?
 Because, unlike with another tool, you can easily check what's going on in the code, so you're sure that it's not a virus. Also, sophisticated isn't always better, and you're also supporting open-source ;) 
-<p></p>
+
 And plus, this uses an **official** Linux tool that's **included**. The developers wouldn't have added it if it was trouble ;)
 
 # I hope you enjoy my script!
