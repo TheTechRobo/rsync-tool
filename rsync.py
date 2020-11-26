@@ -9,8 +9,8 @@ onceOrTwice = input("Would you like rsync-tool to run rsync ONCE or INDEFINITELY
 if onceOrTwice.lower() == "once":
 	try:
 	    r(["rsync -aE --delete ", source, " ", destination], shell=True)
-    except:
-        exit("An error occured.)
+    except Exception:
+        exit("An error occured: %s." % Exception)
     print("All done.")
 elif onceOrTwice.lower() == "indefinitely":
     while True:
