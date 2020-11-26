@@ -36,7 +36,9 @@ To stop it (if you chose indefinitely), press ^C or close the terminal.
 # Why shouldn't I use another, closed-source, more sophisticated third-party tool?
 Because, unlike with another tool, you can easily check what's going on in the code, so you're sure that it's not a virus. Also, sophisticated isn't always better, and you're also supporting open-source ;) 
 
-And plus, this uses an **official** Linux tool that's **included**. The developers wouldn't have added it if it was trouble ;)
+Also, this is barebones and therefore is fast, and has a very small file size. It also doesn't need anything installed except Automator or Python 3.
+
+And plus, this uses an **official** \*nix tool that's **included**. The developers wouldn't have added it if it was trouble ;)
 
 # I hope you enjoy my script!
 Courtesy to [ChrisWrites](https://www.chriswrites.com/how-to-sync-files-and-folders-on-the-mac/) for the instructions :)
